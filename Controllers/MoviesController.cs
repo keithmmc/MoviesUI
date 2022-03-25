@@ -25,8 +25,10 @@ namespace MoviesUI.Controllers
         // GET: Movies
         public async Task<IActionResult> Index()
         {
-            //return View(await _context.Movie.ToListAsync());
-            return View(await _moviesApiClient.GetMovieList());
+            return View(await _context.Movie.ToListAsync());
+            
+            //This will call the Web API Service
+            //return View(await _moviesApiClient.GetMovieList());
 
         }
 

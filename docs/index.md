@@ -2,9 +2,5 @@
 
 
 * [Setup & Installation](setup.md)
-* 
-* 
-* 
-* 
 
 
